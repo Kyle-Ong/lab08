@@ -2,7 +2,7 @@
 
 require_once("settings.php");
 
-$conn = mysqli_connect($host, $user, $pwd, $Profile);
+$conn = mysqli_connect($host, $user, $pwd, $sql_db);
 
 if(!$conn)
 {
